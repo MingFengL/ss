@@ -1,4 +1,4 @@
-
+﻿
 /*
 
   Shape Shifter
@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('🎂|😉|❤️|😘😘|#rectangle|#countdown 3||');
+      S.UI.simulate('瘦瘦|❤️生日❤️|❤️快乐❤️|哈哈|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
